@@ -26,6 +26,8 @@ RandomPlayerbotFactory::RandomPlayerbotFactory(uint32 accountId) : accountId(acc
     availableRaces[CLASS_WARRIOR].push_back(RACE_UNDEAD_PLAYER);
     availableRaces[CLASS_WARRIOR].push_back(RACE_TAUREN);
     availableRaces[CLASS_WARRIOR].push_back(RACE_TROLL);
+    availableRaces[CLASS_WARRIOR].push_back(RACE_WORGEN);
+    availableRaces[CLASS_WARRIOR].push_back(RACE_GOBLIN);
     if(expansion >= EXPANSION_THE_BURNING_CRUSADE)
     {
         availableRaces[CLASS_WARRIOR].push_back(RACE_DRAENEI);
@@ -45,6 +47,8 @@ RandomPlayerbotFactory::RandomPlayerbotFactory(uint32 accountId) : accountId(acc
     availableRaces[CLASS_ROGUE].push_back(RACE_GNOME);
     availableRaces[CLASS_ROGUE].push_back(RACE_ORC);
     availableRaces[CLASS_ROGUE].push_back(RACE_TROLL);
+    availableRaces[CLASS_ROGUE].push_back(RACE_WORGEN);
+    availableRaces[CLASS_ROGUE].push_back(RACE_GOBLIN);
     if(expansion >= EXPANSION_THE_BURNING_CRUSADE)
     {
         availableRaces[CLASS_ROGUE].push_back(RACE_BLOODELF);
@@ -54,6 +58,8 @@ RandomPlayerbotFactory::RandomPlayerbotFactory(uint32 accountId) : accountId(acc
     availableRaces[CLASS_PRIEST].push_back(RACE_DWARF);
     availableRaces[CLASS_PRIEST].push_back(RACE_NIGHTELF);
     availableRaces[CLASS_PRIEST].push_back(RACE_TROLL);
+    availableRaces[CLASS_PRIEST].push_back(RACE_WORGEN);
+    availableRaces[CLASS_PRIEST].push_back(RACE_GOBLIN);
     availableRaces[CLASS_PRIEST].push_back(RACE_UNDEAD_PLAYER);
     if(expansion >= EXPANSION_THE_BURNING_CRUSADE)
     {
@@ -65,6 +71,8 @@ RandomPlayerbotFactory::RandomPlayerbotFactory(uint32 accountId) : accountId(acc
     availableRaces[CLASS_MAGE].push_back(RACE_GNOME);
     availableRaces[CLASS_MAGE].push_back(RACE_UNDEAD_PLAYER);
     availableRaces[CLASS_MAGE].push_back(RACE_TROLL);
+    availableRaces[CLASS_MAGE].push_back(RACE_WORGEN);
+    availableRaces[CLASS_MAGE].push_back(RACE_GOBLIN);
     if(expansion >= EXPANSION_THE_BURNING_CRUSADE)
     {
         availableRaces[CLASS_MAGE].push_back(RACE_DRAENEI);
@@ -75,6 +83,8 @@ RandomPlayerbotFactory::RandomPlayerbotFactory(uint32 accountId) : accountId(acc
     availableRaces[CLASS_WARLOCK].push_back(RACE_GNOME);
     availableRaces[CLASS_WARLOCK].push_back(RACE_UNDEAD_PLAYER);
     availableRaces[CLASS_WARLOCK].push_back(RACE_ORC);
+    availableRaces[CLASS_WARLOCK].push_back(RACE_WORGEN);
+    availableRaces[CLASS_WARLOCK].push_back(RACE_GOBLIN);
     if(expansion >= EXPANSION_THE_BURNING_CRUSADE)
     {
         availableRaces[CLASS_WARLOCK].push_back(RACE_BLOODELF);
@@ -83,6 +93,7 @@ RandomPlayerbotFactory::RandomPlayerbotFactory(uint32 accountId) : accountId(acc
     availableRaces[CLASS_SHAMAN].push_back(RACE_ORC);
     availableRaces[CLASS_SHAMAN].push_back(RACE_TAUREN);
     availableRaces[CLASS_SHAMAN].push_back(RACE_TROLL);
+    availableRaces[CLASS_SHAMAN].push_back(RACE_GOBLIN);
     if(expansion >= EXPANSION_THE_BURNING_CRUSADE)
     {
         availableRaces[CLASS_SHAMAN].push_back(RACE_DRAENEI);
@@ -93,6 +104,8 @@ RandomPlayerbotFactory::RandomPlayerbotFactory(uint32 accountId) : accountId(acc
     availableRaces[CLASS_HUNTER].push_back(RACE_ORC);
     availableRaces[CLASS_HUNTER].push_back(RACE_TAUREN);
     availableRaces[CLASS_HUNTER].push_back(RACE_TROLL);
+    availableRaces[CLASS_HUNTER].push_back(RACE_WORGEN);
+    availableRaces[CLASS_HUNTER].push_back(RACE_GOBLIN);
     if(expansion >= EXPANSION_THE_BURNING_CRUSADE)
     {
         availableRaces[CLASS_HUNTER].push_back(RACE_DRAENEI);
@@ -101,6 +114,7 @@ RandomPlayerbotFactory::RandomPlayerbotFactory(uint32 accountId) : accountId(acc
 
     availableRaces[CLASS_DRUID].push_back(RACE_NIGHTELF);
     availableRaces[CLASS_DRUID].push_back(RACE_TAUREN);
+    availableRaces[CLASS_DRUID].push_back(RACE_WORGEN);
 
     if (expansion == EXPANSION_WRATH_OF_THE_LICH_KING)
     {
@@ -114,6 +128,8 @@ RandomPlayerbotFactory::RandomPlayerbotFactory(uint32 accountId) : accountId(acc
         availableRaces[CLASS_DEATH_KNIGHT].push_back(RACE_DRAENEI);
         availableRaces[CLASS_DEATH_KNIGHT].push_back(RACE_GNOME);
         availableRaces[CLASS_DEATH_KNIGHT].push_back(RACE_DWARF);
+        availableRaces[CLASS_DEATH_KNIGHT].push_back(RACE_WORGEN);
+        availableRaces[CLASS_DEATH_KNIGHT].push_back(RACE_GOBLIN);
     }
 }
 
